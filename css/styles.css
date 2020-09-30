@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  color: #66BFBF;
+   margin: 50 auto 0 auto;
+   font-size: 5.625rem;
+   font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  background-color: #fcdab7;
+  position: relative; 
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.middle-container {
+  
+}
+.bottom-container{
+  color: #11999E;
+}
+
+hr.dotted-border1{
+  border-top: 10px dotted #eaf6e6;
+  border-bottom: none;
+  width: 15%;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0.15%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+/*
+hr{ /* Removes horizonatal rule on the entire website 
+  display: none;
+} 
+*/
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.picture{
+  height: 150px;
+  width: 150px;
+}
+
+.arduino {
+  width: 45%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.content {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 40px;
+}
+
+.management{
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+hr.dotted-border2{
+  border-top: 10px dotted #eaf6e6;
+  border-bottom: none;
+  width: 15%;
+}
+.twitter {
+  height: 250px;
+  width: 250px;
+}
+
+.linkedin {
+  height: 250px;
+  width: 250px;
+}
+.tech {
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+}
+.top-cloud{
+ position: relative;
+ left: 250px;
+}
+
